@@ -1,7 +1,7 @@
 import alchemy.transmutation
 
 
-def main():
+def main() -> None:
     print("=== Pathway Debate Mastery ===")
 
     print("\nTesting Absolute Imports (from basic.py):")

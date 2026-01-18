@@ -2,7 +2,7 @@ import alchemy
 import alchemy.elements
 
 
-def main():
+def main() -> None:
     print("=== Sacred Scroll Mastery ===")
     print()
 

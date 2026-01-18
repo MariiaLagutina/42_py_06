@@ -1,6 +1,9 @@
-def main():
-    print()
+def record_spell(spell_name: str, ingredients: str) -> str:
+    from .validator import validate_ingredients  # late import
 
+    result = validate_ingredients(ingredients)
 
-if __name__ == "__main__":
-    main()
+    if "VALID" in result:
+        return f"Spell recorded: {spell_name} ({result})"
+
+    return f"Spell rejected: {spell_name} ({result})"

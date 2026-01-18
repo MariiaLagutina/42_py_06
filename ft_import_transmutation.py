@@ -1,4 +1,4 @@
-def main():
+def main() -> None:
     print("=== Import Transmutation Mastery ===\n")
 
     print("Method 1 - Full module import:")
